@@ -1,0 +1,58 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    padding: 7% 15%;
+}
+.second-col{
+    background-color: #fff;
+    padding: 5%;
+   
+}
+h4{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+    opacity: 0.5;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    width: 300px;
+    margin-bottom: 30px;
+    color: hsl(212, 21%, 14%);
+    display: inline-block;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500; 
+    width: 280px;
+    line-height: 1.5; 
+    color: hsl(228, 12%, 48%)
+}
+
+.price{
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    font-size: 3rem;
+}
+.discount{
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%); 
+    margin: 5%;
+    top: -22px;
+} 
+.btn{
+    background-color: hsl(158, 36%, 37%);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.fa-customize{
+    font-size: 15px;
+    margin: 2%;
+}
+@media (max-width: 600px) {
+    img {
+        content: url("/images/image-product-mobile.jpg")
+    }
+  }
